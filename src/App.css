@@ -1,0 +1,117 @@
+/*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*/
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/EdyIA/pexels-kampus-production-5940827.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  color: white;
+
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------------------------------------------------- mobiles style ------------------------------------------------------------- */
+
+.v-card {
+  padding-top: 7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+.edyIA {
+  padding: 0;
+  margin: 0;
+  font-size: 7em;
+}
+
+.IA {
+  color: #ffc244;
+}
+
+.space-connexion {
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  bottom: 7em;
+  width: 100%;
+}
+
+.connexion {
+  background-color: #ffc244;
+  color: #fff;
+  border-radius: 1.8em;
+  border: transparent;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+  width: 40%;
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------- large tablets and laptops styles -------------------------------------------------- */
+@media screen and (min-width: 960px) {
+  .scinder {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .v-card {
+    grid-column: 1/2;
+  }
+
+  .edyIA {
+    padding: 0;
+    margin-top: 1.2em;
+    margin-left: 0.5em;
+    font-size: 10em;
+    font-weight: bolder;
+  }
+
+  .texte {
+    width: 80%;
+    margin-left: 6em;
+  }
+
+  .space-connexion {
+    grid-column: 2/2;
+    top: 2em;
+    text-align: right;
+    right: 2em;
+  }
+
+  .connexion {
+    background-color: #ffc244;
+    color: #fff;
+    border-radius: 1.8em;
+    border: transparent;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em;
+    width: 40%;
+    max-width: 200px;
+  }
+}

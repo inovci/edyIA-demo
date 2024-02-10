@@ -1,0 +1,153 @@
+.bg-login {
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/EdyIA/pexels-kampus-production-5940827.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  color: white;
+
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------------------------------------------- mobiles style --------------------------------------------------------- */
+
+.edySpace-login {
+  display: none;
+}
+
+.position-card-login {
+  position: absolute;
+  top: 8em;
+  width: 99.9%;
+  border-radius: 1em;
+}
+
+.card-login {
+  width: 80%;
+  border: solid #4c5f78 1px;
+  margin: 0 auto;
+  border-radius: 2em;
+  padding: 1em;
+  background-color: rgba(117, 116, 116, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.connexion-login {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  color: #ffc244;
+  text-align: center;
+}
+
+.For-inputs {
+  width: 100%;
+  margin: 1.5em auto;
+}
+
+.margin-inputs-login {
+  margin: 0.5em auto;
+}
+
+.inputs-labels {
+  font-size: 1em;
+}
+
+.login-credentials {
+  width: 90%;
+  height: 2em;
+  border-radius: 2em;
+  border: none;
+  padding: 0.2em 1em;
+  font-size: 1.1em;
+}
+
+.se-connecter {
+  background-color: #ffc244;
+  color: #fff;
+  border-radius: 1.8em;
+  border: none;
+  height: 3em;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em;
+  width: 50%;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.mot-p-o {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.sociaux {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.sociaux button {
+  height: 2.5em;
+  width: 80%;
+  border-radius: 2em;
+  border: none;
+}
+
+.Apple-login {
+  background-color: black;
+  color: #fff;
+}
+
+.facebook-login {
+  background-color: #0866ff;
+  color: #fff;
+}
+
+/* ----------------------------------------------------------- small tablets style --------------------------------------------------------- */
+@media screen and (min-width: 620px) {
+  .card-login {
+    width: 450px;
+  }
+}
+
+/* ----------------------------------------------------- large tablets and laptops styles -------------------------------------------------- */
+@media screen and (min-width: 960px) {
+  .scinder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-login {
+    width: 80%;
+  }
+
+  .edySpace-login {
+    grid-column: 1/2;
+    position: absolute;
+    display: contents;
+    width: 55%;
+    margin: 0;
+  }
+
+  .position-card-edyIA-login {
+    margin-top: 2em;
+  }
+
+  .position-card-login {
+    grid-column: 2/2;
+    position: absolute;
+    top: 6em;
+    margin: 0;
+    right: 2%;
+    width: 55%;
+    min-width: 500px;
+    border-radius: 1em;
+  }
+}
