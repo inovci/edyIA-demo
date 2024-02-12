@@ -18,10 +18,18 @@ function App() {
           </div>
         </div>
 
-        <div className="space-connexion">
-          <Link to="/connexion">
-            <button className="connexion">CONNEXION</button>
-          </Link>
+        <div className="buttons-sapce">
+          <div className="space-connexion">
+            <Link to="/connexion">
+              <button className="connexion">CONNEXION</button>
+            </Link>
+          </div>
+
+          <div className="space-dashboard">
+            <Link to="/dashboard">
+              <button className="dashboard">VOIR DASHBOARD</button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

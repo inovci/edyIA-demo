@@ -96,11 +96,35 @@ html {
     margin-left: 6em;
   }
 
-  .space-connexion {
+  .buttons-space {
     grid-column: 2/2;
+  }
+
+  .space-connexion {
     top: 2em;
     text-align: right;
     right: 2em;
+  }
+
+  .space-dashboard {
+    position: absolute;
+    top: 8em;
+    text-align: right;
+    right: 2em;
+    width: 100%;
+  }
+
+  .dashboard {
+    background-color: #1996c7;
+    color: #fff;
+    border-radius: 1.8em;
+    border: transparent;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em;
+    width: 40%;
+    max-width: 200px;
+    cursor: pointer;
   }
 
   .connexion {
