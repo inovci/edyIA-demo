@@ -5,6 +5,12 @@ function Login() {
   return (
     <>
       <div className="bg-login scinder">
+        <h1 className="to-home-login">
+          <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
+            Edy<span className="IA">IA</span> | Accueil
+          </Link>
+        </h1>
+
         <div className="edySpace-login">
           <div className="position-card-edyIA-login">
             <h1 className="edyIA">

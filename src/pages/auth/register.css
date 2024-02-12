@@ -17,6 +17,11 @@
 }
 
 /* ---------------------------------------------------------- mobiles style --------------------------------------------------- */
+.to-home-register {
+  position: absolute;
+  margin-left: 7%;
+  font-size: 3em;
+}
 
 .edySpace-register {
   display: none;
@@ -24,7 +29,7 @@
 
 .position-card-register {
   position: absolute;
-  top: 5em;
+  top: 8em;
   width: 99.9%;
   border-radius: 1em;
 }
@@ -108,6 +113,10 @@
 
 /* ----------------------------------------------------- large tablets and laptops styles -------------------------------------------------- */
 @media screen and (min-width: 960px) {
+  .to-home-register {
+    display: none;
+  }
+
   .scinder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

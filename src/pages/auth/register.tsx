@@ -5,6 +5,15 @@ function Register() {
   return (
     <>
       <div className="bg-register scinder">
+        <h1 className="to-home-register">
+          <Link
+            to="/"
+            style={{ textDecoration: "none", color: "#fff", fontSize: 50 }}
+          >
+            Edy<span className="IA">IA</span>
+          </Link>
+        </h1>
+
         <div className="edySpace-register">
           <div className="position-card-edyIA-register">
             <h1 className="edyIA">

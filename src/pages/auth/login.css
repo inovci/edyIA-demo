@@ -17,6 +17,11 @@
 }
 
 /* ------------------------------------------------------------- mobiles style --------------------------------------------------------- */
+.to-home-login {
+  position: absolute;
+  margin-left: 7%;
+  font-size: 3em;
+}
 
 .edySpace-login {
   display: none;
@@ -119,6 +124,10 @@
 
 /* ----------------------------------------------------- large tablets and laptops styles -------------------------------------------------- */
 @media screen and (min-width: 960px) {
+  .to-home-login {
+    display: none;
+  }
+
   .scinder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
